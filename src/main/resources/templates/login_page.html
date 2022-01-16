@@ -1,0 +1,136 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Log in</title>
+</head>
+<body>
+
+
+<div class="form" id="form1" >
+  <form method="post" action="/login" th:object="${loginRequest}">
+    <h2 style="text-align: center;">Log In as Buyer</h2>
+    <div class="input-box">
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <input type="email" name="email" placeholder="Your e-mail" required>
+    </div>
+    <div class="input-box">
+      <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+      <input type="password" name="password" placeholder="Password" required>
+    </div>
+    <div class="input-box">
+      <input type="submit" name="sign-in" value="Login">
+    </div>
+    <p>Not a member? <a href="/register">Register here!</a>
+  </form>
+</div>
+
+<div class="form" id="form2">
+  <form method="post" action="/login2" th:object="${loginRequest}">
+    <h2 style="text-align: center;">Log In as Seller</h2>
+    <div class="input-box">
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <input type="email" name="email" placeholder="Your e-mail" required>
+    </div>
+    <div class="input-box">
+      <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+      <input type="password" name="password" placeholder="Password" required>
+    </div>
+    <div class="input-box">
+      <input type="submit" name="sign-in" value="Login">
+    </div>
+    <p>Not a member? <a href="/register">Register here!</a>
+  </form>
+</div>
+
+
+</body>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+#form1{
+   position: absolute;
+  top: 50%;
+  left: 25%;
+}
+
+#form2{
+   position: absolute;
+  top: 50%;
+  right: 25%;
+}
+
+.form {
+  transform: translate(-50%, -50%);
+  width: 350px;
+  min-height: 400px;
+  background-color: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.form .input-box {
+  position: relative;
+  margin: 20px 0;
+}
+
+.form .input-box input {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #777;
+  outline: none;
+  padding: 10px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  font-weight: bold;
+  color: #777;
+}
+
+.form .input-box input:focus,
+.form .input-box input:valid {
+  border-bottom-color: #03a9f4;
+}
+
+.form .input-box .fa {
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  font-size: 18px;
+  color: #777;
+}
+
+.form .input-box input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  background-color: #03a9f4;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.form .input-box input[type="submit"]:hover {
+  background-color: #ff4987;
+}
+
+.form a {
+  text-decoration: none;
+  color: #777;
+  margin-top: 20px;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.form a:hover {
+  color: #ff4987;
+}
+</style>
+</html>
