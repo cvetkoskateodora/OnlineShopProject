@@ -1,183 +1,200 @@
 <html>
-   <head>
-      <meta charset="utf-8">
-      <title>Welcome</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<meta charset="utf-8">
+<title>Welcome</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <link href="icofont/icofont.min.css" rel="stylesheet">
-      <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
-      <link href="remixicon/remixicon.css" rel="stylesheet">
-      <link href="venobox/venobox.css" rel="stylesheet">
-      <link href="owl.carousel/owl.carousel.min.css" rel="stylesheet">
-      
-      <script src="jquery/jquery.min.js"></script>
-      <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="jquery.easing/jquery.easing.min.js"></script>
-      <script src="isotope-layout/isotope.pkgd.min.js"></script>
-      <script src="venobox/venobox.min.js"></script>
-      <script src="owl.carousel/owl.carousel.min.js"></script>
-      <script src="jquery.cookie/jquery.cookie.js"> </script>
-      <script src="owl.carousel2.thumbs/owl.carousel2.thumbs.js"></script>
-      
-       
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     
-      <link href="css/style.css" rel="stylesheet">
-      <link href="css/style.default.css" rel="stylesheet">
-      
-      <script src="js/main.js"></script>
-      <script src="js/front.js"></script>
-   </head>
-	 
-   <body>
-      <div id="welcome"  style="background-image: url('images/headerimage.jpg');">
-         <!-- navbar-->
-				 <header id="header" class="fixed-top ">
-					<div class="container d-flex align-items-center">
-						<h1 class="logo mr-auto"><a href="index.html"><img src="images/logo.png"></a></h1>
-						<nav class="nav-menu d-none d-lg-block">
-							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="/login">Login</a></li>
-								<li><a href="/register">Register</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
-						</nav>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="icofont/icofont.min.css" rel="stylesheet">
+<link href="boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="remixicon/remixicon.css" rel="stylesheet">
+<link href="venobox/venobox.css" rel="stylesheet">
+<link href="owl.carousel/owl.carousel.min.css" rel="stylesheet">
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+
+<script src="jquery/jquery.min.js"></script>
+<script src="jquery.easing/jquery.easing.min.js"></script>
+<script src="isotope-layout/isotope.pkgd.min.js"></script>
+<script src="venobox/venobox.min.js"></script>
+<script src="owl.carousel/owl.carousel.min.js"></script>
+<script src="jquery.cookie/jquery.cookie.js"> </script>
+<script src="owl.carousel2.thumbs/owl.carousel2.thumbs.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+
+
+<link rel="stylesheet"	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+<link href="css/style.css" rel="stylesheet">
+
+<script src="js/main.js"></script>
+<script src="js/front.js"></script>
+</head>
+
+<body>
+	<div id="welcome"
+		style="background-image: url('images/headerimage.jpg');">
+		<!-- navbar-->
+		<header id="header" class="fixed-top ">
+			<div class="container d-flex align-items-center">
+				<h1 class="logo mr-auto">
+					<a href="#l"><img src="images/logo.png"></a>
+				</h1>
+				<nav class="nav-menu d-none d-lg-block">
+					<ul>
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="/login">Login</a></li>
+						<li><a href="/register">Register</a></li>
+						<li><a href="/contact">Contact us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+
+		<section>
+			<div class="welcome-container">
+				<h3>
+					<strong>Welcome! Let's go thrifting !!</strong>
+				</h3>
+				<br> <a href="#categorysection"
+					class="btn-get-started scrollto">See our categories</a>
+			</div>
+		</section>
+	</div>
+
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<h2>
+						Please, <a href="/login"><strong>log in</strong></a> to continue!
+					</h2>
+					<p>
+						Not registered yet? <a href="/register"><strong>Register
+								here!</strong></a>
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end of modal-->
+
+	<section id="categorysection" class="categorysection">
+		<div class="section-title">
+			<h3>CHOOSE YOUR CATEGORY AND START SHOPPING!</h3>
+			<section id="seasons" class="seasons">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div
+							class="col-md-6 col-lg-3 list-inline-item align-items-stretch mb-5 mb-lg-0">
+							<button type="button"  data-toggle="modal"
+								data-target="#exampleModal">
+								<div class="icon-box">
+									<h2>MEN</h2>
+									<BR>
+									<BR> <img src="images/men.jpg" width="200" height="150">
+								</div>
+							</button>
+						</div>
+						<div
+							class="col-md-6 col-lg-3 list-inline-item align-items-stretch mb-5 mb-lg-0">
+							<button type="button" data-toggle="modal"
+								data-target="#exampleModal">
+								<div class="icon-box">
+									<h2>WOMEN</h2>
+									<BR>
+									<BR> <img src="images/women.jpg" width="200" height="150">
+								</div>
+							</button>
+						</div>
+						<div
+							class="col-md-6 col-lg-3 list-inline-item align-items-stretch mb-5 mb-lg-0">
+							<button type="button"  data-toggle="modal"
+								data-target="#exampleModal">
+								<div class="icon-box">
+									<h2>KIDS</h2>
+									<BR>
+									<BR> <img src="images/kids.jpg" width="200" height="150">
+								</div>
+							</button>
+						</div>
 					</div>
-         </header>
-
-
-         <section>
-            <div class="welcome-container">
-               <h3><strong>Welcome! Let's go thrifting !!</strong></h3>
-               <br>
-               <a href="#categorysection" class="btn-get-started scrollto">See our categories</a>
-            </div>
-         </section>
-      </div>
-
-
-      
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-   <div class="modal-dialog" role="document">
-      <div class="modal-content">
-         <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-            </button>
-         </div>
-         <div class="modal-body">
-            <h2>Please, <a href="/login"><strong>log in</strong></a> to continue! </h2>
-            <p>Not registered yet? <a href="/register"><strong>Register here!</strong></a></p>
-         </div>
-         <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-         </div>
-      </div>
-   </div>
-</div>
-<!--end of modal-->
-<section id="categorysection" class="categorysection">
-   <div class="section-title">
-      <h3>CHOOSE YOUR CATEGORY AND START SHOPPING!</h3>
-      <section id="seasons" class="seasons">
-         <div class="container" >
-            <div class="row d-flex justify-content-center">
-               <div class="col-md-6 col-lg-3 list-inline-item align-items-stretch mb-5 mb-lg-0" >
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                     <div class="icon-box">
-                        <h2>MEN</h2>
-                        <BR><BR>
-                        <img src="images/men.jpg" width="200" height="150">
-                     </div>
-                  </button>
-               </div>
-               <div class="col-md-6 col-lg-3 list-inline-item align-items-stretch mb-5 mb-lg-0" >
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                     <div class="icon-box">
-                        <h2>WOMEN</h2>
-                        <BR><BR>
-                        <img src="images/women.jpg" width="200" height="150">
-                     </div>
-                  </button>
-               </div>
-               <div class="col-md-6 col-lg-3 list-inline-item align-items-stretch mb-5 mb-lg-0" >
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                     <div class="icon-box">
-                        <h2>KIDS</h2>
-                        <BR><BR>
-                        <img src="images/kids.jpg" width="200" height="150">
-                     </div>
-                  </button>
-               </div>
-            </div>
-         </div>
-      </section>
-   </div>
-</section>
+				</div>
+			</section>
+		</div>
+	</section>
 
 
 
 
-      <!--
+	<!--
          *** FOOTER ***
          _________________________________________________________
          -->
-      <div id="footer">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-3 col-md-6">
-                  <h4 class="mb-3">Pages</h4>
-                  <ul class="list-unstyled">
-                     <li><a href="text.html">About us</a></li>
-                     <li><a href="faq.html">FAQ</a></li>
-                     <li><a href="contact.html">Contact us</a></li>
-                  </ul>
-               </div>
-               <!-- /.col-lg-3-->
-               <div class="col-lg-3 col-md-6">
-                  <h4 class="mb-3">User section</h4>
-                  <ul class="list-unstyled">
-                     <li><a href="login.html">Login</a></li>
-                     <li><a href="register.html">Register</a></li>
-                  </ul>
-               </div>
-               <!-- /.col-lg-3-->
-               <div class="col-lg-3 col-md-6">
-                  <h4 class="mb-3">Stay in touch</h4>
-                  <hr>
-                  <p class="social">
-                  <a href="#" class="facebook external"><i class="fa fa-facebook"></i></a>
-                  <a href="#" class="twitter external"><i class="fa fa-twitter"></i></a>
-                  <a href="#" class="instagram external"><i class="fa fa-instagram"></i></a>
-                  <a href="#" class="gplus external"><i class="fa fa-google-plus"></i></a>
-                  </p>
-               </div>
-               <!-- /.col-lg-3-->
-            </div>
-            <!-- /.row-->
-         </div>
-         <!-- /.container-->
-      </div>
-      <!-- /#footer-->
-      <!-- *** FOOTER END ***-->
-      <!--
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h4 class="mb-3">Pages</h4>
+					<ul class="list-unstyled">
+						<li><a href="/aboutus">About us</a></li>
+						<li><a href="/faq">FAQ</a></li>
+						<li><a href="/contact">Contact us</a></li>
+					</ul>
+				</div>
+				<!-- /.col-lg-3-->
+				<div class="col-lg-3 col-md-6">
+					<h4 class="mb-3">User section</h4>
+					<ul class="list-unstyled">
+						<li><a href="/login">Login</a></li>
+						<li><a href="/register">Register</a></li>
+					</ul>
+				</div>
+				<!-- /.col-lg-3-->
+				<div class="col-lg-3 col-md-6">
+					<h4 class="mb-3">Stay in touch</h4>
+					<hr>
+					<p class="social">
+						<a href="social" target="_blank"  class="facebook external"><i
+							class="fa fa-facebook"></i></a> <a href="social" target="_blank" class="twitter external"><i
+							class="fa fa-twitter"></i></a> <a href="social" target="_blank"  class="instagram external"><i
+							class="fa fa-instagram"></i></a> <a href="social" target="_blank"  class="gplus external"><i
+							class="fa fa-google-plus"></i></a>
+					</p>
+				</div>
+				
+			</div>
+		</div>
+		<!-- /.container-->
+	</div>
+	<!-- *** FOOTER END ***-->
+	<!--
          *** COPYRIGHT ***
          _________________________________________________________
          -->
-      <div id="copyright">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-6 mb-2 mb-lg-0">
-                  <p class="text-center text-lg-left">&copy; Copyright 2021</p>
-               </div>
-            </div>
-         </div>
-      </div>
-      
-     
-   </body>
+	<div id="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 mb-2 mb-lg-0">
+					<p class="text-center text-lg-left">&copy; Copyright 2022</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
 </html>

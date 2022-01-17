@@ -1,0 +1,675 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Posts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="icofont/icofont.min.css" rel="stylesheet">
+<link href="boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="remixicon/remixicon.css" rel="stylesheet">
+<link href="venobox/venobox.css" rel="stylesheet">
+<link href="owl.carousel/owl.carousel.min.css" rel="stylesheet">
+
+<script src="jquery/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="jquery.easing/jquery.easing.min.js"></script>
+<script src="isotope-layout/isotope.pkgd.min.js"></script>
+<script src="venobox/venobox.min.js"></script>
+<script src="owl.carousel/owl.carousel.min.js"></script>
+<script src="jquery.cookie/jquery.cookie.js"> </script>
+<script src="owl.carousel2.thumbs/owl.carousel2.thumbs.js"></script>
+
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="css/style.css" rel="stylesheet">
+
+<script src="js/main.js"></script>
+<script src="js/front.js"></script>
+</head>
+<body>
+	<!-- navbar-->
+	<header class="header mb-5">
+		<nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+			<a class="navbar-brand" href="#"><img src="images/logo.png"
+				alt="logo" width="80" height="40"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			</div>
+			</div>
+		</nav>
+
+	</header>
+	<div id="all">
+		<div id="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<!-- breadcrumb-->
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li aria-current="page" class="breadcrumb-item active">Admin
+									Page</li>
+							</ol>
+						</nav>
+					</div>
+					<div class="col-lg-3">
+						<!--
+              ***  MENU ***
+              _________________________________________________________
+              -->
+						<div class="card sidebar-menu">
+							<div class="card-header">
+								<h3 class="h4 card-title">Sections</h3>
+							</div>
+							<div class="card-body">
+								<ul class="nav nav-pills flex-column">
+									<a href="/admin" class="nav-link "><i class="fa fa-list"></i>
+										Statistics</a>
+									<a href="/orders" class="nav-link "><i class="fa fa-list"></i>
+										Orders</a>
+									<a href="/posts" class="nav-link active"><i
+										class="fa fa-list"></i> Posts</a>
+									<a href="/users_1" class="nav-link"><i class="fa fa-user"></i>
+										Users</a>
+								</ul>
+							</div>
+						</div>
+						<!-- /.col-lg-3-->
+						<!-- *** CUSTOMER MENU END ***-->
+					</div>
+					<div id="customer-orders" class="col-lg-9">
+						<div class="box">
+							<h1>Posts</h1>
+							<p class="lead">All posts on one place.</p>
+							<p class="text-muted">This is where you can delete posts from
+								the website.</p>
+							<hr>
+							<div class="col-lg-12">
+
+								<div class="row products">
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/w1.jpg" alt=""
+															class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/w1_1.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/w1.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Fur coat with very but very very
+														long name</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$143.00
+												</p>
+
+											</div>
+
+											<!-- /.text-->
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									
+									<div class="col-lg-4 col-md-6" id="i">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper" >
+													<div class="front">
+														<a href="/detail"><img src="images/w2.jpg" alt=""
+															class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/w2_2.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/w2.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+
+												<h3>White Blouse Armani</h3>
+												<p class="price">
+													<del></del>
+													$143.00
+												</p>
+												
+											</div>
+											<!-- /.text-->
+
+										</div>
+										<!-- /.product            -->
+										<button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/w3.jpg" alt=""
+															class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/w3_3.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/w3.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Black Blouse Versace</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$143.00
+												</p>
+											</div>
+											<!-- /.text-->
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/w6.jpg" alt=""
+															class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/w6_6.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/w6.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Black Blouse Versace</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$143.00
+												</p>
+											</div>
+											<!-- /.text-->
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/w4.jpg" alt=""
+															class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/w4_4.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/w4.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">White Blouse Versace</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$143.00
+												</p>
+												</p>
+											</div>
+											<!-- /.text-->
+
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/w5.jpg" alt=""
+															class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/w5_5.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/w5.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Fur coat</a>
+												</h3>
+												<p class="price">
+													<del>$280</del>
+													$143.00
+												</p>
+											</div>
+
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/kids1.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/kids1_1.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/kids1.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Fur coat with very but very very
+														long name</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$143.00
+												</p>
+											</div>
+											<!-- /.text-->
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/kids2.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/kids2_2.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/kids2.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">White Blouse Armani</a>
+												</h3>
+												<p class="price">
+													<del>$280</del>
+													$143.00
+												</p>
+											</div>
+
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/kids3.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/kids3_3.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/kids3.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Black Blouse Versace</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$143.00
+												</p>
+											</div>
+											<!-- /.text-->
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/kids4.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/kids4_4.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/kids4.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Black Blouse Versace</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$143.00
+												</p>
+											</div>
+											<!-- /.text-->
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/kids5.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/kids5_5.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/kids5.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">White Blouse Versace</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$143.00
+												</p>
+											</div>
+
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/kids6.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/kids6_6.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/kids6.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Fur coat</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$143.00
+												</p>
+											</div>
+											<!-- /.text-->
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/product1.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/product1_1.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/product1.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Black T-Shirt</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$8.00
+												</p>
+											</div>
+											<!-- /.text-->
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/product2.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/product2_2.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/product2.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Red Jumper</a>
+												</h3>
+												<p class="price">
+													<del>$20</del>
+													$14.00
+												</p>
+											</div>
+
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/product3_3.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/product3.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/product3_3.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Black Coat</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$25.00
+												</p>
+											</div>
+											<!-- /.text-->
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/product4.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/product4_4.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/product4.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Brown sweater</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$19.00
+												</p>
+											</div>
+											<!-- /.text-->
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/product5.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/product5_5.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/product5.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Brown Coat</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$29.00
+												</p>
+											</div>
+											<!-- /.text-->
+
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="product">
+											<div class="flip-container">
+												<div class="flipper">
+													<div class="front">
+														<a href="/detail"><img src="images/product6.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+													<div class="back">
+														<a href="/detail"><img src="images/product6_6.jpg"
+															alt="" class="img-fluid"></a>
+													</div>
+												</div>
+											</div>
+											<a href="/detail" class="invisible"><img
+												src="images/product6.jpg" alt="" class="img-fluid"></a>
+											<div class="text">
+												<h3>
+													<a href="/detail">Blue Jeans</a>
+												</h3>
+												<p class="price">
+													<del></del>
+													$23.00
+												</p>
+											</div>
+
+										</div>
+										<!-- /.product            --><button  onclick="document.body.removeChild(this.parentNode)"
+													class="btn btn-primary">Delete Item</button>
+									</div>
+
+									<!-- /.products-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--
+         *** COPYRIGHT ***
+         _________________________________________________________
+         -->
+	<div id="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 mb-2 mb-lg-0">
+					<p class="text-center text-lg-left">&copy; Copyright 2022</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

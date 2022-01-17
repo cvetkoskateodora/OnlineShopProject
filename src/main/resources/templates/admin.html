@@ -1,10 +1,284 @@
-<!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-ADMIN
-</body>
+  <head>
+      <meta charset="utf-8">
+      <title>Admin page</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="icofont/icofont.min.css" rel="stylesheet">
+      <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
+      <link href="remixicon/remixicon.css" rel="stylesheet">
+      <link href="venobox/venobox.css" rel="stylesheet">
+      <link href="owl.carousel/owl.carousel.min.css" rel="stylesheet">
+      
+      <script src="jquery/jquery.min.js"></script>
+      <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="jquery.easing/jquery.easing.min.js"></script>
+      <script src="isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="venobox/venobox.min.js"></script>
+      <script src="owl.carousel/owl.carousel.min.js"></script>
+      <script src="jquery.cookie/jquery.cookie.js"> </script>
+      <script src="owl.carousel2.thumbs/owl.carousel2.thumbs.js"></script>
+      
+       
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+      <link href="css/style.css" rel="stylesheet">
+      
+      <script src="js/main.js"></script>
+      <script src="js/front.js"></script>
+   </head>
+  <body>
+    <!-- navbar-->
+    <header class="header mb-5">
+      <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+         <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"  width="80" height="40"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+</div>
+         </div>
+      </nav>
+      
+   </header>
+   <div id="all">
+      <div id="content">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+              <!-- breadcrumb-->
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li aria-current="page" class="breadcrumb-item active">Admin Page</li>
+                </ol>
+              </nav>
+            </div>
+            <div class="col-lg-3">
+              <!--
+              ***  MENU ***
+              _________________________________________________________
+              -->
+              <div class="card sidebar-menu">
+                <div class="card-header">
+                  <h3 class="h4 card-title">Sections</h3>
+                </div>
+                <div class="card-body">
+                  <ul class="nav nav-pills flex-column"><a href="/admin" class="nav-link active"><i class="fa fa-list"></i> Statistics</a><a href="/orders" class="nav-link"><i class="fa fa-list"></i> Orders</a><a href="/posts" class="nav-link "><i class="fa fa-list"></i> Posts</a><a href="/users_1" class="nav-link"><i class="fa fa-user"></i> Users</a></ul>
+                </div>
+              </div>
+              <!-- /.col-lg-3-->
+              <!-- *** MENU END ***-->
+            </div>
+            <div id="customer-orders" class="col-lg-9">
+              <div class="box">
+                
+                <div class="content">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="card">
+                          <div class="card-header border-0">
+                            <div class="d-flex justify-content-between">
+                              <h3 class="card-title">Online Store Visitors</h3>
+                              
+                            </div>
+                          </div>
+                          <div class="card-body">
+                            <div class="d-flex">
+                              <p class="d-flex flex-column">
+                                <span class="text-bold text-lg">820</span>
+                                <span>Visitors Over Time</span>
+                              </p>
+                              <p class="ml-auto d-flex flex-column text-right">
+                                <span class="text-success">
+                                  12.5%
+                                </span>
+                                <span class="text-muted">Rise since last week</span>
+                              </p>
+                            </div>
+                            <!-- /.d-flex -->
+            
+                            <div class="position-relative mb-4">
+                              <img src="images/visitors.png" id="visitors-chart"  height="100">
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.card -->
+            
+                        <div class="card">
+                          <div class="card-header border-0">
+                            <h3 class="card-title">Products</h3>
+                            
+                          </div>
+                          <div class="card-body table-responsive p-0">
+                            <table class="table table-striped table-valign-middle">
+                              <thead>
+                              <tr>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Sales</th>
+                                
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+                                <td>
+                                  <img src="images/shirt.jpg" width="90" height="90" alt="Product 1" class="img-circle img-size-32 mr-2">
+                                  
+                                </td>
+                                <td>$13 USD</td>
+                                <td>
+
+                                  12,000 Sold
+                                </td>
+                              
+                              </tr>
+                              <tr>
+                                <td>
+                                  <img src="images/shirt.jpg" width="90" height="90" alt="Product 1" class="img-circle img-size-32 mr-2">
+                                   
+                                </td>
+                                <td>$29 USD</td>
+                                <td>
+
+                                  123,234 Sold
+                                </td>
+                                
+                              </tr>
+                              <tr>
+                                <td>
+                                  <img src="images/shirt.jpg" width="90" height="90" alt="Product 1" class="img-circle img-size-32 mr-2">
+                                 
+                                </td>
+                                <td>$1,230 USD</td>
+                                <td>
+
+                                  198 Sold
+                                </td>
+                                
+                              </tr>
+                              <tr>
+                                <td>
+                                  <img src="images/shirt.jpg" width="90" height="90" alt="Product 1" class="img-circle img-size-32 mr-2">
+
+                                </td>
+                                <td>$199 USD</td>
+                                <td>
+
+                                  87 Sold
+                                </td>
+                                
+                              </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                      <!-- /.col-md-6 -->
+                      <div class="col-lg-6">
+                        <div class="card">
+                          <div class="card-header border-0">
+                            <div class="d-flex justify-content-between">
+                              <h3 class="card-title">Sales</h3>
+                             
+                            </div>
+                          </div>
+                          <div class="card-body">
+                            <div class="d-flex">
+                              <p class="d-flex flex-column">
+                                <span class="text-bold text-lg">$18,230.00</span>
+                                <span>Sales Over Time</span>
+                              </p>
+                              <p class="ml-auto d-flex flex-column text-right">
+                                <span class="text-success"> 33.1% rise
+                                </span>
+                                <span class="text-muted">Since last month</span>
+                              </p>
+                            </div>
+                            <!-- /.d-flex -->
+            
+                            <div class="position-relative mb-4">
+                              <img src="images/sales.png" id="sales-chart" height="100">
+                            </div>
+
+                          </div>
+                        </div>
+                        <!-- /.card -->
+            
+                        <div class="card">
+                          <div class="card-header border-0">
+                            <h3 class="card-title">Online Store Overview</h3>
+
+                          </div>
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center border-bottom mb-3">
+                              <p class="text-success text-xl">
+                                <i class="ion ion-ios-refresh-empty"></i>
+                              </p>
+                              <p class="d-flex flex-column text-right">
+                                <span class="font-weight-bold">
+                                  <i class="ion ion-android-arrow-up text-success"></i> 12%
+                                </span>
+                                <span class="text-muted">CONVERSION RATE</span>
+                              </p>
+                            </div>
+                            <!-- /.d-flex -->
+                            <div class="d-flex justify-content-between align-items-center border-bottom mb-3">
+                              <p class="text-warning text-xl">
+                                <i class="ion ion-ios-cart-outline"></i>
+                              </p>
+                              <p class="d-flex flex-column text-right">
+                                <span class="font-weight-bold">
+                                  <i class="ion ion-android-arrow-up text-warning"></i> 0.8%
+                                </span>
+                                <span class="text-muted">SALES RATE</span>
+                              </p>
+                            </div>
+                            <!-- /.d-flex -->
+                            <div class="d-flex justify-content-between align-items-center mb-0">
+                              <p class="text-danger text-xl">
+                                <i class="ion ion-ios-people-outline"></i>
+                              </p>
+                              <p class="d-flex flex-column text-right">
+                                <span class="font-weight-bold">
+                                  <i class="ion ion-android-arrow-down text-danger"></i> 1%
+                                </span>
+                                <span class="text-muted">REGISTRATION RATE</span>
+                              </p>
+                            </div>
+                            <!-- /.d-flex -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.col-md-6 -->
+                    </div>
+                    <!-- /.row -->
+                  </div>
+                  <!-- /.container-fluid -->
+                </div>
+                <!-- /.content -->
+              </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div id="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 mb-2 mb-lg-0">
+					<p class="text-center text-lg-left">&copy; Copyright 2022</p>
+				</div>
+			</div>
+		</div>
+	</div>
+  </body>
 </html>
